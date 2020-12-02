@@ -23,7 +23,7 @@ Use maven to run on paraya microserver. Type in a Terminal from the project root
 ```bash
 mvn clean package payara-micro:start
 ```
-The server will be at:
+The server home page can found be at:
 ```bash
 http://localhost:8080/gomSpaceTest-1.0-SNAPSHOT/index.xhtml
 ```
@@ -54,13 +54,21 @@ And the response will be in JSON in the form
 ```
 
 
-## Graphical Interface
+## Front End Graphical Interface
 
 A graphical interface allows the user to interact with the endpoints. 
 
 
+## Tests
+
+For the tests is used the [Arquilian](https://arquillian.org/)  Testing platform
 
 
+Classes that are tested:
+
+```
+ActorMachine, Grid, Simulator
+```
 
 ## Todo
 
