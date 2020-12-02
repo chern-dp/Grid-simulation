@@ -58,7 +58,7 @@ And the response will be in JSON in the form
 
 A graphical interface allows the user to interact with the endpoints. 
 
-<img src ="image/scrsh.png" alt="grid gui" width = 200 />
+<img src ="image/scrsh.png" alt="grid gui" width = 400 />
 
 ## Tests
 
