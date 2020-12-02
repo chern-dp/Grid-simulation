@@ -13,8 +13,7 @@ and move forward 1 unit;
 Implement an application that will receive HTTP PUT requests with a
 number of steps the simulation should run, always starting from the same
 conditions, and output the resulting grid to a file.
-Please provide support documentation and let me know by when you plan to
-complete the exercise.
+Please provide support documentation 
 
 ## How to run 
 
