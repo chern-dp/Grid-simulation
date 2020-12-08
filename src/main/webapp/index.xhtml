@@ -28,10 +28,10 @@
                 <f:ajax execute="inputSteps" render="stringGrid grid largeGridErr" />
             </h:commandButton>
 
-            <h:outputText id = "stringGrid" rendered="#{indexController.steps gt 99999}" value = "#{indexController.gridString}" />
+            <h:outputText id = "stringGrid" rendered="#{indexController.steps gt 19000}" value = "#{indexController.gridString}" />
 
 
-            <h:panelGroup rendered="#{indexController.steps lt 100000}" id="grid" style="width:100%;height:auto;margin: 0 auto; text-align: center;">
+            <h:panelGroup rendered="#{indexController.steps lt 19001}" id="grid" style="width:100%;height:auto;margin: 0 auto; text-align: center;">
                 <table style="margin:0 auto;">
                     <ui:repeat var="row" value="#{indexController.gridArray}" varStatus="status">
                         <tr>
